@@ -1,5 +1,6 @@
 
 import { useRef } from 'react';
+import Myinput from './MyInput';
 export default function Form() {
 
   const inputRef = useRef(null)
@@ -9,7 +10,7 @@ export default function Form() {
 
   return (
     <>
-      <input ref={inputRef} />
+      <Myinput ref={inputRef} placeholder="Enter your name" type="text"/>
       <button onClick={handleFocusInput}>
         Focus the input
       </button>

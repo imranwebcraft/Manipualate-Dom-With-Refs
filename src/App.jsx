@@ -1,13 +1,12 @@
 import "./App.css";
-import CatFriends from "./components/CatFriends";
-import CatFriendsTwo from "./components/CatFriendsTwo";
+import Form from "./components/Form";
 
 function App() {
   return (
     <>
-      {/* <Form/> */}
-      <CatFriends/>
-      <CatFriendsTwo/>
+      <Form/>
+      {/* <CatFriends/> */}
+      {/* <CatFriendsTwo/> */}
     </>
   );
 }
